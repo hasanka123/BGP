@@ -1,0 +1,23 @@
+{
+  "mainContact": {
+    "name": "Hasanka",
+    "jobTitle": "Test Engineer",
+    "phone": "12345678",
+    "email": "hasanka@gmail.com",
+    "altEmail": "kumudu@gmail.com"
+  },
+  "postalCode": "550106",
+  "registeredAddress": {
+    "postalCode": "117438",
+    "blkHseNo": "10",
+    "streetDetails": "Pasir Panjang Road",
+    "level": "10",
+    "unit": "01",
+    "buildingName": "Mapletree Business City"
+  },
+  "letterOfOffer": {
+    "name": "Achini",
+    "jobTitle": "Manager",
+    "email": "achini@gmail.com"
+  }
+}

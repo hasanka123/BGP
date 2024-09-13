@@ -1,0 +1,12 @@
+{
+  "cognito": {
+    "username": "temp-govtech",
+    "password": "bgPB3Aw3SomeGvtF@lk!"
+  },
+  "login": {
+    "username": "BGPQETECH",
+    "password": "S1234567A",
+    "role": "Acceptor",
+    "name": "Tan Ah Kow"
+  }
+}

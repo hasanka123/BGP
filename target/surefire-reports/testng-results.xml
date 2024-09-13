@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-14T03:03:52 SGT" name="BGP Portal Suite" finished-at="2024-09-14T03:05:17 SGT" duration-ms="85368">
+    <groups>
+    </groups>
+    <test started-at="2024-09-14T03:03:52 SGT" name="BGP Portal Tests" finished-at="2024-09-14T03:05:17 SGT" duration-ms="85368">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:52 SGT" name="setupReport" finished-at="2024-09-14T03:03:52 SGT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:52 SGT" name="setup" finished-at="2024-09-14T03:03:54 SGT" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:54 SGT" name="setUpTest" finished-at="2024-09-14T03:03:54 SGT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.testLogin()[pri:0, instance:tests.LoginTest@595b007d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testLogin()[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:54 SGT" name="testLogin" finished-at="2024-09-14T03:03:57 SGT" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:57 SGT" name="tearDownTest" finished-at="2024-09-14T03:03:57 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:0, instance:tests.LoginTest@595b007d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:03:57 SGT" name="getResult" finished-at="2024-09-14T03:03:57 SGT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:0, instance:tests.LoginTest@595b007d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@595b007d]" started-at="2024-09-14T03:05:17 SGT" name="teardown" finished-at="2024-09-14T03:05:17 SGT" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CostDetailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:08 SGT" name="setup" finished-at="2024-09-14T03:05:08 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFillMandatoryFieldsAndSave()[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:08 SGT" name="testFillMandatoryFieldsAndSave" finished-at="2024-09-14T03:05:11 SGT" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillMandatoryFieldsAndSave -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:08 SGT" name="setUpTest" finished-at="2024-09-14T03:05:08 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CostDetailTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.CostDetailTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:11 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:11 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=CostDetailTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.CostDetailTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:11 SGT" name="getResult" finished-at="2024-09-14T03:05:11 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=CostDetailTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.CostDetailTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="testNavigateNextPage()[pri:0, instance:tests.CostDetailTest@59662a0b]" started-at="2024-09-14T03:05:11 SGT" name="testNavigateNextPage" finished-at="2024-09-14T03:05:11 SGT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateNextPage -->
+      </class> <!-- tests.CostDetailTest -->
+      <class name="tests.ProjectDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:04 SGT" name="setup" finished-at="2024-09-14T03:05:04 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:04 SGT" name="setUpTest" finished-at="2024-09-14T03:05:04 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ProjectDetailsTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFillMandatoryFieldsAndSave()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:04 SGT" name="testFillMandatoryFieldsAndSave" finished-at="2024-09-14T03:05:06 SGT" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillMandatoryFieldsAndSave -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:06 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:06 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=ProjectDetailsTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="testNavigateNextPage()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:06 SGT" name="testNavigateNextPage" finished-at="2024-09-14T03:05:06 SGT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateNextPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ProjectDetailsTest@4efbca5a]" started-at="2024-09-14T03:05:06 SGT" name="getResult" finished-at="2024-09-14T03:05:06 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=ProjectDetailsTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.ProjectDetailsTest@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.ProjectDetailsTest -->
+      <class name="tests.BusinessImpactTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:06 SGT" name="setup" finished-at="2024-09-14T03:05:06 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:06 SGT" name="setUpTest" finished-at="2024-09-14T03:05:06 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=BusinessImpactTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFillMandatoryFieldsAndSave()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:06 SGT" name="testFillMandatoryFieldsAndSave" finished-at="2024-09-14T03:05:08 SGT" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillMandatoryFieldsAndSave -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:08 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:08 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=BusinessImpactTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="testNavigateNextPage()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:08 SGT" name="testNavigateNextPage" finished-at="2024-09-14T03:05:08 SGT" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateNextPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.BusinessImpactTest@1b7cc17c]" started-at="2024-09-14T03:05:08 SGT" name="getResult" finished-at="2024-09-14T03:05:08 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMandatoryFieldsAndSave status=SUCCESS method=BusinessImpactTest.testFillMandatoryFieldsAndSave()[pri:0, instance:tests.BusinessImpactTest@1b7cc17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.BusinessImpactTest -->
+      <class name="tests.DeclarationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:11 SGT" name="setup" finished-at="2024-09-14T03:05:11 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testYesNoOptionsForDeclarationQuestions()[pri:1, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:11 SGT" name="testYesNoOptionsForDeclarationQuestions" finished-at="2024-09-14T03:05:14 SGT" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYesNoOptionsForDeclarationQuestions -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:11 SGT" name="setUpTest" finished-at="2024-09-14T03:05:11 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeclarationTest.testYesNoOptionsForDeclarationQuestions()[pri:1, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:14 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:14 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testYesNoOptionsForDeclarationQuestions status=SUCCESS method=DeclarationTest.testYesNoOptionsForDeclarationQuestions()[pri:1, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="testSubmitApplication()[pri:2, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:14 SGT" name="testSubmitApplication" finished-at="2024-09-14T03:05:17 SGT" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitApplication -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:14 SGT" name="getResult" finished-at="2024-09-14T03:05:14 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testYesNoOptionsForDeclarationQuestions status=SUCCESS method=DeclarationTest.testYesNoOptionsForDeclarationQuestions()[pri:1, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:14 SGT" name="setUpTest" finished-at="2024-09-14T03:05:14 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeclarationTest.testSubmitApplication()[pri:2, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:17 SGT" name="getResult" finished-at="2024-09-14T03:05:17 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSubmitApplication status=SUCCESS method=DeclarationTest.testSubmitApplication()[pri:2, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.DeclarationTest@77fbd92c]" started-at="2024-09-14T03:05:17 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:17 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSubmitApplication status=SUCCESS method=DeclarationTest.testSubmitApplication()[pri:2, instance:tests.DeclarationTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.DeclarationTest -->
+      <class name="tests.EligibilityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="setup" finished-at="2024-09-14T03:04:51 SGT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAllEligibilityQuestionsPresent()[pri:1, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="testAllEligibilityQuestionsPresent" finished-at="2024-09-14T03:04:51 SGT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllEligibilityQuestionsPresent -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="setUpTest" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EligibilityTest.testAllEligibilityQuestionsPresent()[pri:1, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAllEligibilityQuestionsPresent status=SUCCESS method=EligibilityTest.testAllEligibilityQuestionsPresent()[pri:1, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="getResult" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAllEligibilityQuestionsPresent status=SUCCESS method=EligibilityTest.testAllEligibilityQuestionsPresent()[pri:1, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testYesNoOptionsForEligibilityQuestions()[pri:2, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="testYesNoOptionsForEligibilityQuestions" finished-at="2024-09-14T03:04:53 SGT" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYesNoOptionsForEligibilityQuestions -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:51 SGT" name="setUpTest" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EligibilityTest.testYesNoOptionsForEligibilityQuestions()[pri:2, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:53 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:53 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testYesNoOptionsForEligibilityQuestions status=SUCCESS method=EligibilityTest.testYesNoOptionsForEligibilityQuestions()[pri:2, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:53 SGT" name="getResult" finished-at="2024-09-14T03:04:53 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testYesNoOptionsForEligibilityQuestions status=SUCCESS method=EligibilityTest.testYesNoOptionsForEligibilityQuestions()[pri:2, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testWarningMessageDisplayedOnNoSelection()[pri:3, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:53 SGT" name="testWarningMessageDisplayedOnNoSelection" finished-at="2024-09-14T03:04:55 SGT" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWarningMessageDisplayedOnNoSelection -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:53 SGT" name="setUpTest" finished-at="2024-09-14T03:04:53 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EligibilityTest.testWarningMessageDisplayedOnNoSelection()[pri:3, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:55 SGT" name="setUpTest" finished-at="2024-09-14T03:04:55 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EligibilityTest.testFaqLinkOpensNewTab()[pri:4, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:55 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:55 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWarningMessageDisplayedOnNoSelection status=SUCCESS method=EligibilityTest.testWarningMessageDisplayedOnNoSelection()[pri:3, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:55 SGT" name="getResult" finished-at="2024-09-14T03:04:55 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWarningMessageDisplayedOnNoSelection status=SUCCESS method=EligibilityTest.testWarningMessageDisplayedOnNoSelection()[pri:3, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testFaqLinkOpensNewTab()[pri:4, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:55 SGT" name="testFaqLinkOpensNewTab" finished-at="2024-09-14T03:04:57 SGT" duration-ms="2797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaqLinkOpensNewTab -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:57 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:57 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFaqLinkOpensNewTab status=SUCCESS method=EligibilityTest.testFaqLinkOpensNewTab()[pri:4, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="testSaveAndReloadEligibilityForm()[pri:5, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:57 SGT" name="testSaveAndReloadEligibilityForm" finished-at="2024-09-14T03:04:59 SGT" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveAndReloadEligibilityForm -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:57 SGT" name="setUpTest" finished-at="2024-09-14T03:04:57 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=EligibilityTest.testSaveAndReloadEligibilityForm()[pri:5, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:57 SGT" name="getResult" finished-at="2024-09-14T03:04:57 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFaqLinkOpensNewTab status=SUCCESS method=EligibilityTest.testFaqLinkOpensNewTab()[pri:4, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:59 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:59 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSaveAndReloadEligibilityForm status=SUCCESS method=EligibilityTest.testSaveAndReloadEligibilityForm()[pri:5, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:59 SGT" name="getResult" finished-at="2024-09-14T03:04:59 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSaveAndReloadEligibilityForm status=SUCCESS method=EligibilityTest.testSaveAndReloadEligibilityForm()[pri:5, instance:tests.EligibilityTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="testNavigateNextPage()[pri:0, instance:tests.EligibilityTest@9597028]" started-at="2024-09-14T03:04:59 SGT" name="testNavigateNextPage" finished-at="2024-09-14T03:04:59 SGT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateNextPage -->
+      </class> <!-- tests.EligibilityTest -->
+      <class name="tests.ViewTest">
+        <test-method signature="testApplicationSubmissionSuccess()[pri:0, instance:tests.ViewTest@67c27493]" started-at="2024-09-14T03:05:17 SGT" name="testApplicationSubmissionSuccess" finished-at="2024-09-14T03:05:17 SGT" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationSubmissionSuccess -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ViewTest@67c27493]" started-at="2024-09-14T03:05:17 SGT" name="setUpTest" finished-at="2024-09-14T03:05:17 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ViewTest.testApplicationSubmissionSuccess()[pri:0, instance:tests.ViewTest@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ViewTest@67c27493]" started-at="2024-09-14T03:05:17 SGT" name="setup" finished-at="2024-09-14T03:05:17 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ViewTest@67c27493]" started-at="2024-09-14T03:05:17 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:17 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testApplicationSubmissionSuccess status=SUCCESS method=ViewTest.testApplicationSubmissionSuccess()[pri:0, instance:tests.ViewTest@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ViewTest@67c27493]" started-at="2024-09-14T03:05:17 SGT" name="getResult" finished-at="2024-09-14T03:05:17 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testApplicationSubmissionSuccess status=SUCCESS method=ViewTest.testApplicationSubmissionSuccess()[pri:0, instance:tests.ViewTest@67c27493] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.ViewTest -->
+      <class name="tests.ContactDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:04:59 SGT" name="setup" finished-at="2024-09-14T03:04:59 SGT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFillMainContactDetails()[pri:1, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:04:59 SGT" name="testFillMainContactDetails" finished-at="2024-09-14T03:05:00 SGT" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillMainContactDetails -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:04:59 SGT" name="setUpTest" finished-at="2024-09-14T03:04:59 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ContactDetailsTest.testFillMainContactDetails()[pri:1, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:00 SGT" name="getResult" finished-at="2024-09-14T03:05:00 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMainContactDetails status=SUCCESS method=ContactDetailsTest.testFillMainContactDetails()[pri:1, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:00 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:00 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillMainContactDetails status=SUCCESS method=ContactDetailsTest.testFillMainContactDetails()[pri:1, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="testUseSameAsRegisteredAddress()[pri:2, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:00 SGT" name="testUseSameAsRegisteredAddress" finished-at="2024-09-14T03:05:02 SGT" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUseSameAsRegisteredAddress -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:00 SGT" name="setUpTest" finished-at="2024-09-14T03:05:00 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ContactDetailsTest.testUseSameAsRegisteredAddress()[pri:2, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:02 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseSameAsRegisteredAddress status=SUCCESS method=ContactDetailsTest.testUseSameAsRegisteredAddress()[pri:2, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method signature="testFillLetterOfOffer()[pri:3, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="testFillLetterOfOffer" finished-at="2024-09-14T03:05:02 SGT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillLetterOfOffer -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="setUpTest" finished-at="2024-09-14T03:05:02 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ContactDetailsTest.testFillLetterOfOffer()[pri:3, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="getResult" finished-at="2024-09-14T03:05:02 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseSameAsRegisteredAddress status=SUCCESS method=ContactDetailsTest.testUseSameAsRegisteredAddress()[pri:2, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testUseSameAsMainContactPerson()[pri:4, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="testUseSameAsMainContactPerson" finished-at="2024-09-14T03:05:04 SGT" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUseSameAsMainContactPerson -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="getResult" finished-at="2024-09-14T03:05:02 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillLetterOfOffer status=SUCCESS method=ContactDetailsTest.testFillLetterOfOffer()[pri:3, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="setUpTest" finished-at="2024-09-14T03:05:02 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ContactDetailsTest.testUseSameAsMainContactPerson()[pri:4, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:02 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:02 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFillLetterOfOffer status=SUCCESS method=ContactDetailsTest.testFillLetterOfOffer()[pri:3, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:04 SGT" name="getResult" finished-at="2024-09-14T03:05:04 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseSameAsMainContactPerson status=SUCCESS method=ContactDetailsTest.testUseSameAsMainContactPerson()[pri:4, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:04 SGT" name="tearDownTest" finished-at="2024-09-14T03:05:04 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUseSameAsMainContactPerson status=SUCCESS method=ContactDetailsTest.testUseSameAsMainContactPerson()[pri:4, instance:tests.ContactDetailsTest@6069db50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="testNavigateNextPage()[pri:0, instance:tests.ContactDetailsTest@6069db50]" started-at="2024-09-14T03:05:04 SGT" name="testNavigateNextPage" finished-at="2024-09-14T03:05:04 SGT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateNextPage -->
+      </class> <!-- tests.ContactDetailsTest -->
+      <class name="tests.GrantApplicationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GrantApplicationTest@49139829]" started-at="2024-09-14T03:03:57 SGT" name="setup" finished-at="2024-09-14T03:03:57 SGT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGrantApplicationProcess()[pri:0, instance:tests.GrantApplicationTest@49139829]" started-at="2024-09-14T03:03:57 SGT" name="testGrantApplicationProcess" finished-at="2024-09-14T03:04:51 SGT" duration-ms="54068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrantApplicationProcess -->
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestResult)[pri:0, instance:tests.GrantApplicationTest@49139829]" started-at="2024-09-14T03:03:57 SGT" name="setUpTest" finished-at="2024-09-14T03:03:57 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GrantApplicationTest.testGrantApplicationProcess()[pri:0, instance:tests.GrantApplicationTest@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.GrantApplicationTest@49139829]" started-at="2024-09-14T03:04:51 SGT" name="getResult" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGrantApplicationProcess status=SUCCESS method=GrantApplicationTest.testGrantApplicationProcess()[pri:0, instance:tests.GrantApplicationTest@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.GrantApplicationTest@49139829]" started-at="2024-09-14T03:04:51 SGT" name="tearDownTest" finished-at="2024-09-14T03:04:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGrantApplicationProcess status=SUCCESS method=GrantApplicationTest.testGrantApplicationProcess()[pri:0, instance:tests.GrantApplicationTest@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.GrantApplicationTest -->
+    </test> <!-- BGP Portal Tests -->
+  </suite> <!-- BGP Portal Suite -->
+</testng-results>

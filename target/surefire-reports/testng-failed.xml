@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BGP Portal Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="BGP Portal Tests(failed)" verbose="0">
+    <classes>
+      <class name="tests.ViewTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="setUpTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testApplicationSubmissionSuccess"/>
+          <include name="getResult"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- tests.ViewTest -->
+    </classes>
+  </test> <!-- BGP Portal Tests(failed) -->
+</suite> <!-- Failed suite [BGP Portal Suite] -->

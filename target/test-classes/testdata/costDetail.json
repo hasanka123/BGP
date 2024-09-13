@@ -1,0 +1,8 @@
+{
+  "projectCostDetails": {
+    "description": "Office space rental for project work.",
+    "rentalDuration": "5",
+    "monthlyRental": "5000",
+    "remarks": "This is the projected rental for the year."
+  }
+}

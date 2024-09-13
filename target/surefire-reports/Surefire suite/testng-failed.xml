@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.DeclarationTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="tearDownTest"/>
+          <include name="testSubmitApplication"/>
+          <include name="setUpTest"/>
+          <include name="teardown"/>
+          <include name="testYesNoOptionsForDeclarationQuestions"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DeclarationTest -->
+      <class name="tests.ViewTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="setUpTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testApplicationSubmissionSuccess"/>
+          <include name="getResult"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- tests.ViewTest -->
+      <class name="tests.EligibilityTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupReport"/>
+          <include name="testFaqLinkOpensNewTab"/>
+          <include name="setUpTest"/>
+          <include name="testWarningMessageDisplayedOnNoSelection"/>
+          <include name="teardown"/>
+          <include name="testAllEligibilityQuestionsPresent"/>
+          <include name="tearDownTest"/>
+          <include name="getResult"/>
+          <include name="testSaveAndReloadEligibilityForm"/>
+          <include name="testYesNoOptionsForEligibilityQuestions"/>
+          <include name="testNavigateNextPage"/>
+        </methods>
+      </class> <!-- tests.EligibilityTest -->
+      <class name="tests.ContactDetailsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupReport"/>
+          <include name="testUseSameAsMainContactPerson"/>
+          <include name="testFillMainContactDetails"/>
+          <include name="testFillLetterOfOffer"/>
+          <include name="teardown"/>
+          <include name="setUpTest"/>
+          <include name="tearDownTest"/>
+          <include name="getResult"/>
+          <include name="testUseSameAsRegisteredAddress"/>
+          <include name="testNavigateNextPage"/>
+        </methods>
+      </class> <!-- tests.ContactDetailsTest -->
+      <class name="tests.GrantApplicationTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="testGrantApplicationProcess"/>
+          <include name="setUpTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="tearDownTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- tests.GrantApplicationTest -->
+      <class name="tests.CostDetailTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="setUpTest"/>
+          <include name="testNavigateNextPage"/>
+          <include name="testSaveProjectCostWithMandatoryFields"/>
+        </methods>
+      </class> <!-- tests.CostDetailTest -->
+      <class name="tests.ProjectDetailsTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="tearDownTest"/>
+          <include name="testFillMandatoryFieldsAndSave"/>
+          <include name="testNavigateNextPage"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- tests.ProjectDetailsTest -->
+      <class name="tests.BusinessImpactTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="setup"/>
+          <include name="tearDownTest"/>
+          <include name="teardown"/>
+          <include name="fillMandatoryFieldsAndSave"/>
+          <include name="getResult"/>
+          <include name="setUpTest"/>
+          <include name="testNavigateNextPage"/>
+        </methods>
+      </class> <!-- tests.BusinessImpactTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,17 @@
+{
+  "financialYearEndDate": "25 Dec 2024",
+  "overseasSales": {
+    "currentYear": "1.00",
+    "nextYear": "2.00",
+    "next2Year": "3.00",
+    "next3Year": "4.00"
+  },
+  "overseasInvestment": {
+    "currentYear": "1.00",
+    "nextYear": "2.00",
+    "next2Year": "3.00",
+    "next3Year": "4.00"
+  },
+  "rationale": "This is a sample rationale.",
+  "tangible": "This is a sample tangible."
+}

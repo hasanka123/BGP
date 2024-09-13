@@ -1,0 +1,11 @@
+{
+  "projectDetails": {
+    "title": "Trade Fair",
+    "startDate": "25 Dec 2024",
+    "endDate": "12 Aug 2025",
+    "description": "Promotion at Trade Fair",
+    "activityDropdownIndex": 1,
+    "marketDropdownIndex": 2,
+    "firstTimeExpansion": true
+  }
+}
